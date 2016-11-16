@@ -12,7 +12,7 @@ setup(
 
     setup_requires = ['cffi >= 1.0.0'],
     install_requires = ['cffi >= 1.0.0'],
-    cffi_modules=['alpm/alpm_build.py:ffibuilder'],
+    cffi_modules=['alpm/build.py:ffibuilder'],
 
     classifiers = [
         "Development Status :: 3 - Alpha",
